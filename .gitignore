@@ -1,0 +1,25 @@
+# Gradle / Android build output
+.gradle/
+build/
+*/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local capture / debug dumps (not part of the source)
+ui.xml
+ui-*.xml
+ui2.xml
+ui3.xml
+ui4.xml
+screenshot*.png
+home-updated.png

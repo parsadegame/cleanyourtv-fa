@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings for the live info strip (weather + TGJU prices). Kept in its own file so config.xml stays
+     the reference launcher's. The rest of the launcher is English; these cards are Persian. -->
+<resources>
+    <!-- Hide the whole row: weather, dollar, Emami coin and gold ounce. -->
+    <bool name="show_info_strip">true</bool>
+
+    <!-- The city name shown on the weather card. -->
+    <string name="weather_city" translatable="false">تهران</string>
+    <!-- Where the weather comes from (Open-Meteo). Tehran, Tajrish-ish centre. -->
+    <string name="weather_latitude" translatable="false">35.6892</string>
+    <string name="weather_longitude" translatable="false">51.3890</string>
+
+    <!-- Minutes between TGJU price refreshes while Home is on screen; weather refreshes at most every
+         15 minutes. Nothing is fetched while another app is in front. -->
+    <integer name="info_refresh_minutes">10</integer>
+</resources>

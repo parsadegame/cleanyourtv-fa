@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/marketDot"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="@drawable/info_dot" />
+
+        <TextView
+            android:id="@+id/marketLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#99FFFFFF"
+            android:textSize="10sp"
+            android:fontFamily="@font/vazirmatn_medium" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/marketValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFFFF"
+        android:textSize="19sp"
+        android:fontFamily="@font/vazirmatn_semibold"
+        android:includeFontPadding="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/marketUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#66FFFFFF"
+            android:textSize="9sp"
+            android:fontFamily="@font/vazirmatn_regular" />
+
+        <TextView
+            android:id="@+id/marketChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:singleLine="true"
+            android:textColor="#66FFFFFF"
+            android:textSize="10sp"
+            android:fontFamily="@font/vazirmatn_medium" />
+    </LinearLayout>
+</merge>
